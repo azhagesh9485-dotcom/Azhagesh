@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Sollution {
+
+    public int add(int a, int b) {
+        int c = a + b;
+        return c;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        Sollution ob = new Sollution();
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int x = ob.add(a, b);
+
+        System.out.print(x);
+
+        sc.close();
+    }
+}
+    
